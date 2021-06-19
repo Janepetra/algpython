@@ -10,7 +10,7 @@ while jwb== "Y" or jwb=="y":
     #menghitung total
     totAwal = int(hrgPrinter) * int(jmlhbeli)
     if totAwal>1500000:
-        nilaiDisc = int(totAwal) * 15/100
+        nilaiDisc = int(totAwal * 0.15)
     else:
         nilaiDisc = 0
     totBayar = int(totAwal) - int(nilaiDisc)
